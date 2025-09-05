@@ -1,1 +1,54 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+logs/*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / testing
+coverage/
+.nyc_output/
+jest/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# Frontend specific
+frontend/node_modules/
+frontend/.next/
+frontend/.cache/
+frontend/build/
+
+# Backend specific
+backend/node_modules/
+backend/logs/
+backend/coverage/
+backend/tmp/
